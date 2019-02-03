@@ -1,0 +1,16 @@
+@mixin display ($property) {
+    display:$property;
+}
+@mixin flex {
+    display: -webkit-flex;
+    display: flex;
+}
+@mixin animation ($property, $time) {
+    transition-property:$property ;
+    transition-duration:$time;
+}
+@mixin clear {
+    display: block;
+    content: "";
+    clear:both;
+}

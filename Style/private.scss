@@ -1,0 +1,25 @@
+%container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+%float-left{
+	float: left;
+}
+%float-right{
+	float: right;
+}
+
+%inline-b
+{
+    display:inline-block;
+}
+
+%clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
