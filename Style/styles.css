@@ -25,22 +25,25 @@
 {
 	width: 100%;
 	height: 100%;
+	
 }
 .jon2
 {
-	width: 100%;
 	height: 100%;
+	width: 100%;
+	/*object-fit: contain;*/
 }
 .jon3
 {
 	width: 100%;
 	height: 100%;
+	
 }
 .jon4
 {
 	width: 100%;
 	height: 100%;
-}
+}	
 .camera{
 	width: 100%;
 	height: 100;
